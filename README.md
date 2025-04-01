@@ -68,7 +68,7 @@ npx expo start
 - Open `script.tsx`  
 - Replace `API_KEY` with your own Gemini AI API key:  
 ```ts
-const API_KEY = "your-google-gemini-api-key";
+Const = API_KEY "#";
 ```
 
 ---
