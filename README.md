@@ -1,50 +1,91 @@
-# Welcome to your Expo app 👋
+# **Bkim AI**  
+A **React Native** mobile chat assistant powered by **Google Gemini AI**. This app provides an intuitive and mobile-responsive AI chat experience with smart suggestions and seamless interactions.  
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+---
 
-## Get started
+## **🚀 Features**  
+✅ **Conversational AI** – Ask anything, get AI-powered responses.  
+✅ **Suggested Questions** – Quick start with common tech topics.  
+✅ **Real-Time Chat** – Interactive chat with smooth animations.  
+✅ **User-Friendly UI** – Clean and responsive design for mobile.  
+✅ **Optimized for Speed** – Lightweight, smooth performance.  
 
-1. Install dependencies
+---
 
-   ```bash
-   npm install
-   ```
+## **📌 Tech Stack**  
+- **React Native** (TypeScript)  
+- **Expo** (for development and deployment)  
+- **Google Gemini AI API** (AI-powered responses)  
+- **React Native Reanimated** (for smooth animations)  
 
-2. Start the app
+---
 
-   ```bash
-    npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
+## **📂 Project Structure**  
+```
+/BKIMCHAT
+│── /.expo                 # Expo project metadata  
+│── /app                   # Main app folder  
+│   │── _layout.tsx        # Layout configuration  
+│   │── index.tsx          # Main App entry point  
+│   │── indexstyles.tsx    # App styling  
+│   │── script.tsx         # Chat logic   
+│  
+│── /assets                # Images & icons  
+│── /node_modules          # Installed dependencies 
+│── app.json               # Expo app configuration  
+│── expo-env.d.ts          # Expo environment definitions  
+│── package-lock.json      # Dependency lock file  
+│── package.json           # Project dependencies  
+│── README.md              # Project documentation  
+│── tsconfig.json          # TypeScript configuration  
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+---
 
-## Learn more
+## **🔧 Installation & Setup**  
 
-To learn more about developing your project with Expo, look at the following resources:
+1️⃣ **Clone the repository**  
+```sh
+git clone https://github.com/Bkimking/Bkimai-mobile.git
+cd Bkimai-mobile
+```
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+2️⃣ **Install dependencies**  
+```sh
+npm install
+```
 
-## Join the community
+3️⃣ **Run the app on Expo**  
+```sh
+npx expo start
+```
 
-Join our community of developers creating universal apps.
+---
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## **⚙️ Configuration**  
+
+1️⃣ **Set up the Google Gemini API Key**  
+- Open `script.tsx`  
+- Replace `API_KEY` with your own Gemini AI API key:  
+```ts
+const API_KEY = "your-google-gemini-api-key";
+```
+
+---
+
+## **🛠 To-Do List**  
+- [ ] Improve AI responses and conversation memory.  
+- [ ] Add voice-to-text & text-to-speech features.  
+- [ ] Implement multi-language support (including Mandarin).  
+- [ ] Optimize performance for low-end devices.  
+
+---
+
+## **📜 License**  
+This project is open-source and free to use.  
+
+---
+
+## **👑 Credits**  
+Developed by **Bkimking**  
+Inspired by AI innovations and technology advancements. 🚀
